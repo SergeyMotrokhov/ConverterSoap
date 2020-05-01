@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5aedacaa-68b6-4b78-8580-87b0af4aab41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ConverterSoap.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CustimUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SimpleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GetConversionRate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GetConversionRate.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0c55ea1f-dd85-4db6-8e02-68c4cd9ce2cf-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/25f3110c-551e-49aa-bd4c-5c223c323511-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/94d975e9-1335-43fd-a3f7-da9d9d632c72-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a9548e7a-8d9f-467b-a4b6-3ce3e53ebeca-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b3d8ae70-d5c9-485f-a8db-50a1f2224a4f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/cc8ab5b8-3e4d-4804-b2c5-356a8bf8f5f5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e412c20e-4aac-478d-a296-c24588360c14-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/log4j.properties/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ApiTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ApiTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps.class" afterDir="false" />
-    </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="5aedacaa-68b6-4b78-8580-87b0af4aab41" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,19 +18,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1adWyrKi4FL8NNdF0WHdnIU6YM4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -62,18 +40,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\IdeaProjects\ConverterSoap\src\main\java" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="JUnit.ApiTests.getCurrenciesSuccessTest">
     <configuration name="ApiTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -185,12 +151,29 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1396" height="218" key="GridCell.Tab.0.bottom" timestamp="1588332218283">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="218" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588332218283" />
+    <state width="1396" height="218" key="GridCell.Tab.0.center" timestamp="1588332218283">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="218" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1588332218283" />
+    <state width="1396" height="218" key="GridCell.Tab.0.left" timestamp="1588332218283">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="218" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1588332218283" />
+    <state width="1396" height="218" key="GridCell.Tab.0.right" timestamp="1588332218283">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="218" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1588332218283" />
   </component>
 </project>
