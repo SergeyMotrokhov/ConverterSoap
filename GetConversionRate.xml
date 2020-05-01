@@ -3,10 +3,10 @@
     <soapenv:Body>
         <tem:GetConversionRate>
             <!--Optional:-->
-            <tem:CurrencyFrom>USD</tem:CurrencyFrom>
+            <tem:CurrencyFrom></tem:CurrencyFrom>
             <!--Optional:-->
-            <tem:CurrencyTo>RUB</tem:CurrencyTo>
-            <tem:RateDate>2020-04-17</tem:RateDate>
+            <tem:CurrencyTo></tem:CurrencyTo>
+            <tem:RateDate></tem:RateDate>
         </tem:GetConversionRate>
     </soapenv:Body>
 </soapenv:Envelope>

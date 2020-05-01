@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:GetCurrencyRates>
+         <tem:RateDate></tem:RateDate>
+      </tem:GetCurrencyRates>
+   </soapenv:Body>
+</soapenv:Envelope>

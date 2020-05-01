@@ -1,9 +1,17 @@
 import io.qameta.allure.Step;
+import io.restassured.RestAssured;
 import io.restassured.path.xml.XmlPath;
 import io.restassured.response.Response;
 import org.apache.tika.io.IOUtils;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
+import org.w3c.dom.Document;
+import org.w3c.dom.Node;
 
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
 
 import static io.restassured.RestAssured.given;
 import java.io.FileInputStream;
@@ -12,30 +20,7 @@ import java.util.stream.Collectors;
 
 public class Steps {
 
-    @Step ("Проверка getConversionRate")
-    public static String getConversionRate(String converterSoap, String result, int code) throws Exception{
-        FileInputStream fileInputStream = new FileInputStream(converterSoap);
-        Response response=
-                given()
-                .contentType("text/xml")
-                .and()
-                .body(IOUtils.toString(fileInputStream,"UTF-8"))
-                .when()
-                .post("/converter.asmx")
-                .then()
-                .log().all()
-                .statusCode(code)
-                        .and()
-                        .log().all().extract().response();
-        XmlPath xmlPath = new XmlPath(response.asString());
-        String resp = xmlPath.getString(result);
-        Assertions.assertFalse(xmlPath.get(result).toString().isEmpty(),"rate is NULL");
-        System.out.println("rate is "+resp);
-        return resp;
-    }
-
-
-    @Step ("Проверка GetCurrencies")
+    @Step ("Проверка getCurrencies")
     public static String getCurrencies (String converterSoap, String result, int code) throws Exception{
         FileInputStream fileInputStream = new FileInputStream(converterSoap);
         Response response=
@@ -46,7 +31,6 @@ public class Steps {
                         .when()
                         .post("/converter.asmx")
                         .then()
-                        .log().all()
                         .statusCode(code)
                         .and()
                         .log().all().extract().response();

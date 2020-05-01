@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5aedacaa-68b6-4b78-8580-87b0af4aab41" name="Default Changelist" comment="" />
+    <list default="true" id="5aedacaa-68b6-4b78-8580-87b0af4aab41" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ConverterSoap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CustimUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetConversionRate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GetConversionRate.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0c55ea1f-dd85-4db6-8e02-68c4cd9ce2cf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/25f3110c-551e-49aa-bd4c-5c223c323511-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/94d975e9-1335-43fd-a3f7-da9d9d632c72-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a9548e7a-8d9f-467b-a4b6-3ce3e53ebeca-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b3d8ae70-d5c9-485f-a8db-50a1f2224a4f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cc8ab5b8-3e4d-4804-b2c5-356a8bf8f5f5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e412c20e-4aac-478d-a296-c24588360c14-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/log4j.properties/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ApiTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ApiTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,12 +32,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Tag Library Descriptor" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/RestAssured_Zadanie_2.2" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -28,11 +50,18 @@
   <component name="ProjectId" id="1adWyrKi4FL8NNdF0WHdnIU6YM4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\ConverterSoap\src\main\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,8 +75,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTests (1)">
-    <configuration name="ApiTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ApiTests.getCurrenciesSuccessTest">
+    <configuration name="ApiTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterSoap" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ApiTests" />
@@ -56,27 +85,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GetConversionRateTest" />
+    <configuration name="ApiTests.Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConverterSoap" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ApiTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiTests.getConversionRateNullRateDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GetConversionRateTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ApiTests" />
-      <option name="METHOD_NAME" value="getConversionRateNullRateDateTest" />
+      <option name="METHOD_NAME" value="Test2(java.lang.String,java.lang.String,java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ApiTests.getConversionRateSuccessTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GetConversionRateTest" />
+      <module name="ConverterSoap" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ApiTests" />
       <option name="METHOD_NAME" value="getConversionRateSuccessTest" />
@@ -85,25 +105,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTests.getConversionRateSuccessTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="GetConversionRateTest" />
+    <configuration name="ApiTests.getCurrenciesSuccessTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConverterSoap" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ApiTests" />
-      <option name="METHOD_NAME" value="getConversionRateSuccessTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="METHOD_NAME" value="getCurrenciesSuccessTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTests.postMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConverterSoap" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ApiTests" />
+      <option name="METHOD_NAME" value="postMethod" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApiTests (1)" />
+        <item itemvalue="JUnit.ApiTests.getCurrenciesSuccessTest" />
         <item itemvalue="JUnit.ApiTests" />
+        <item itemvalue="JUnit.ApiTests.Test2" />
+        <item itemvalue="JUnit.ApiTests.postMethod" />
         <item itemvalue="JUnit.ApiTests.getConversionRateSuccessTest" />
-        <item itemvalue="JUnit.ApiTests.getConversionRateNullRateDateTest" />
-        <item itemvalue="TestNG.ApiTests.getConversionRateSuccessTest" />
       </list>
     </recent_temporary>
   </component>
@@ -125,6 +153,27 @@
       <workItem from="1587201367944" duration="1119000" />
       <workItem from="1587202689892" duration="909000" />
       <workItem from="1587206431720" duration="50000" />
+      <workItem from="1587208988365" duration="8791000" />
+      <workItem from="1587240390022" duration="8065000" />
+      <workItem from="1587277835067" duration="3865000" />
+      <workItem from="1587326193902" duration="7836000" />
+      <workItem from="1587362143251" duration="1652000" />
+      <workItem from="1587370068619" duration="9714000" />
+      <workItem from="1587391164968" duration="1910000" />
+      <workItem from="1587413575586" duration="3756000" />
+      <workItem from="1587465354507" duration="6428000" />
+      <workItem from="1587545809000" duration="2207000" />
+      <workItem from="1587589919795" duration="614000" />
+      <workItem from="1587625978712" duration="1537000" />
+      <workItem from="1587627558659" duration="2108000" />
+      <workItem from="1587634477368" duration="917000" />
+      <workItem from="1587642158679" duration="475000" />
+      <workItem from="1587653752065" duration="136000" />
+      <workItem from="1587654269153" duration="2902000" />
+      <workItem from="1587671644578" duration="591000" />
+      <workItem from="1587709507196" duration="520000" />
+      <workItem from="1587712122729" duration="689000" />
+      <workItem from="1587715251129" duration="595000" />
     </task>
     <servers />
   </component>
