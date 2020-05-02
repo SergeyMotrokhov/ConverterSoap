@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ConverterSoap" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ConverterSoap/ConverterSoap" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RestAssured_Zadanie_2.1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RestAssured_Zadanie_2.1.1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RestAssured_Zadanie_2.2" vcs="Git" />

@@ -9,7 +9,7 @@ import javax.xml.transform.stream.StreamResult;
 import java.io.StringWriter;
 
 public class CustimUtils {
-    private static String nodeToString(Node node) throws Exception{
+    private static String nodeToString(Node node) throws Exception {
         StringWriter sw = new StringWriter();
         Transformer t = TransformerFactory.newInstance().newTransformer();
         t.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");

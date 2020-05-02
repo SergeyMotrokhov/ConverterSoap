@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aedacaa-68b6-4b78-8580-87b0af4aab41" name="Default Changelist" comment="" />
+    <list default="true" id="5aedacaa-68b6-4b78-8580-87b0af4aab41" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConverterSoap/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ConverterSoap/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConverterSoap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ConverterSoap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConverterSoap/ConverterSoap/ConverterSoap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CustimUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CustimUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SimpleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Specification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Specification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +70,7 @@
       <recent name="C:\IdeaProjects\ConverterSoap\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTests.getCurrenciesSuccessTest">
+  <component name="RunManager" selected="JUnit.ApiTests.getConversionAmountTest">
     <configuration name="ApiTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterSoap" />
       <option name="PACKAGE_NAME" value="" />
@@ -61,11 +90,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTests.getConversionRateSuccessTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiTests.getConversionAmountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConverterSoap" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ApiTests" />
-      <option name="METHOD_NAME" value="getConversionRateSuccessTest" />
+      <option name="METHOD_NAME" value="getConversionAmountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTests.getConversionAmountTest" />
         <item itemvalue="JUnit.ApiTests.getCurrenciesSuccessTest" />
         <item itemvalue="JUnit.ApiTests" />
         <item itemvalue="JUnit.ApiTests.Test2" />
         <item itemvalue="JUnit.ApiTests.postMethod" />
-        <item itemvalue="JUnit.ApiTests.getConversionRateSuccessTest" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +188,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="503" y="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588332809520">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="503" y="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.860@0.0.1440.860" timestamp="1588332809520" />
     <state width="1396" height="218" key="GridCell.Tab.0.bottom" timestamp="1588332218283">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

@@ -7,7 +7,7 @@ import io.restassured.specification.ResponseSpecification;
 
 public class Specification {
 
-    public static RequestSpecification requestSpec(){
+    public static RequestSpecification requestSpec() {
         RequestSpecification requestSpec = new RequestSpecBuilder()
                 .setBaseUri("http://currencyconverter.kowabunga.net")
                 .log(LogDetail.ALL)
@@ -15,7 +15,7 @@ public class Specification {
         return requestSpec;
     }
 
-    public static ResponseSpecification responseSpec(int code){
+    public static ResponseSpecification responseSpec(int code) {
         ResponseSpecification responseSpec = new ResponseSpecBuilder()
                 .expectStatusCode(code)
                 .build();
@@ -23,15 +23,15 @@ public class Specification {
         return responseSpec;
     }
 
-    public static void installSpec(RequestSpecification requestSpec){
+    public static void installSpec(RequestSpecification requestSpec) {
         RestAssured.requestSpecification = requestSpec;
     }
 
-    public static void installSpec(ResponseSpecification responseSpec){
+    public static void installSpec(ResponseSpecification responseSpec) {
         RestAssured.responseSpecification = responseSpec;
     }
 
-    public static void installSpec(RequestSpecification requestSpec, ResponseSpecification responseSpec){
+    public static void installSpec(RequestSpecification requestSpec, ResponseSpecification responseSpec) {
         RestAssured.requestSpecification = requestSpec;
         RestAssured.responseSpecification = responseSpec;
     }
